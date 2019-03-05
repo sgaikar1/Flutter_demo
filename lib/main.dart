@@ -31,7 +31,7 @@ class MyHomePage extends StatefulWidget {
 List data;
 
 class _MyHomePageState extends State<MyHomePage> {
-  String url = "api url"
+  String url = "api url";
   Future<String> makeRequest() async {
     print("1");
     Map<String, int> jsonMap = {
